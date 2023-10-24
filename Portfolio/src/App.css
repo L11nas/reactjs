@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body,
+button,
+input,
+textarea {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+}
+body {
+  background-color: rgb(205, 211, 216);
+  color: black;
+}
+h1,
+h2,
+h3 {
+  color: blue;
+  font-weight: 200;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+  padding: 6rem 0 2rem;
+}
+
+.section__title {
+  font-size: small;
+  color: black;
+}
+.section__subtitle {
+  display: block;
+  font-size: small;
+  margin-bottom: 4rem;
+}
+.section__title,
+.section__subtitle {
+  text-align: center;
+}
+
+.container {
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+.button {
+  display: inline-block;
+  background-color: bisque;
+  color: aquamarine;
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
+  font-weight: bolder;
+}
+.button:hover {
+  background-color: rgb(183, 175, 175);
+}
+.button__icon {
+  margin-left: 1rem;
+}
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
