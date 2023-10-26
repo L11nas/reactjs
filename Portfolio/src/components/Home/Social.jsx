@@ -1,18 +1,14 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin } from '@fortawesome/free-solid-svg-icons';
-import { faGithub } from '@fortawesome/free-solid-svg-icons';
 const Social = () => {
   return (
     <div className='home__social'>
       <a
-        href='https://www.instagram.com/uleviciuslinas/'
+        href='https://www.instagram.com/uleviciuslinas'
         className='home__social-icon'
         target='_blank'
         rel='noopener noreferrer'
       >
-        <FontAwesomeIcon icon={faInstagram} />
+        <i className='uil uil-instagram'></i>
       </a>
 
       <a
@@ -21,7 +17,7 @@ const Social = () => {
         target='_blank'
         rel='noopener noreferrer'
       >
-        <FontAwesomeIcon icon={faLinkedin} />
+        <i className='uil uil-linkedin'></i>
       </a>
       <a
         href='https://github.com/L11nas'
@@ -29,7 +25,7 @@ const Social = () => {
         target='_blank'
         rel='noopener noreferrer'
       >
-        <FontAwesomeIcon icon={faGithub} />
+        <i className='uil uil-github'></i>
       </a>
     </div>
   );
